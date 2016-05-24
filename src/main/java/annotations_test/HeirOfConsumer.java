@@ -8,11 +8,13 @@ import annotations.InjectCache;
  */
 public class HeirOfConsumer extends Consumer {
     @InjectCache(name = "SortedMap")
-    private AbstractCache<Integer,String> sortedmap_cache;
-    public void putInSortedCache(Integer key, String value){
-        sortedmap_cache.put(key,value);
+    private AbstractCache<Integer, String> sortedmap_cache;
+
+    public void putInSortedCache(Integer key, String value) {
+        sortedmap_cache.put(key, value);
     }
-    public String getFromSortedCache (Integer key){
+
+    public String getFromSortedCache(Integer key) {
         return sortedmap_cache.get(key);
     }
 }

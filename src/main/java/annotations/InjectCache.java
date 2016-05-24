@@ -9,8 +9,8 @@ import java.lang.annotation.Target;
  * Created by Aphex on 20.05.2016.
  */
 
-@Target(value= ElementType.FIELD)
-@Retention(value= RetentionPolicy.RUNTIME)
+@Target(value = ElementType.FIELD)
+@Retention(value = RetentionPolicy.RUNTIME)
 public @interface InjectCache {
     String name();
 }

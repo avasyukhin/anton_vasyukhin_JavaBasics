@@ -8,12 +8,13 @@ import annotations.InjectCache;
  */
 public class Consumer {
     @InjectCache(name = "Map")
-    private AbstractCache<Integer,String> map_cache;
+    private AbstractCache<Integer, String> map_cache;
 
-    public void putInCache(Integer key, String value){
-        map_cache.put(key,value);
+    public void putInCache(Integer key, String value) {
+        map_cache.put(key, value);
     }
-    public String getFromCache (Integer key){
+
+    public String getFromCache(Integer key) {
         return map_cache.get(key);
     }
 }

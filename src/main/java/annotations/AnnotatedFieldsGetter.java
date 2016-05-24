@@ -9,7 +9,7 @@ import java.util.List;
 public class AnnotatedFieldsGetter {
     public static List<Field> getAnnotatedFields(List<Field> fields, Class<?> type) {
         for (Field field : type.getDeclaredFields()) {
-            if (field.isAnnotationPresent(InjectCache.class)){
+            if (field.isAnnotationPresent(InjectCache.class)) {
                 fields.add(field);
             }
         }
