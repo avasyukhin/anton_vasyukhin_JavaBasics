@@ -1,4 +1,4 @@
-package annotations;
+package injector;
 
 import java.lang.reflect.Field;
 

@@ -1,4 +1,6 @@
-package annotations;
+package injector;
+
+import annotations.InjectCache;
 
 import java.lang.reflect.Field;
 import java.util.List;

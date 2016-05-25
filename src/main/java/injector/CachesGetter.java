@@ -1,7 +1,7 @@
-package annotations;
+package injector;
 
-import annotations_test.MapCache;
-import annotations_test.SortedMapCache;
+import cache.MapCache;
+import cache.SortedMapCache;
 
 import java.util.List;
 

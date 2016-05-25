@@ -1,10 +1,10 @@
-package annotations_test;
+package main;
 
 /**
  * Created by Aphex on 24.05.2016.
  */
-public class Tester {
+public class Main {
     public static void main(String[] args) {
-        TesterLogic.execute();
+        Runner.execute();
     }
 }

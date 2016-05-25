@@ -1,6 +1,6 @@
-package annotations_test;
+package consumer;
 
-import annotations.AbstractCache;
+import cache.AbstractCache;
 import annotations.InjectCache;
 
 /**

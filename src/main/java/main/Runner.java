@@ -1,11 +1,12 @@
-package annotations_test;
+package main;
 
-import annotations.Injector;
+import consumer.HeirOfConsumer;
+import injector.Injector;
 
 /**
  * Created by Aphex on 24.05.2016.
  */
-public class TesterLogic {
+public class Runner {
     public static void execute() {
         HeirOfConsumer heirOfConsumer = new HeirOfConsumer();
         System.out.println("Injecting caches to fields:");
