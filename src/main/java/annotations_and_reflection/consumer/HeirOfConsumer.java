@@ -1,7 +1,7 @@
-package consumer;
+package annotations_and_reflection.consumer;
 
-import cache.AbstractCache;
-import annotations.InjectCache;
+import annotations_and_reflection.cache.AbstractCache;
+import annotations_and_reflection.annotations.InjectCache;
 
 /**
  * Created by Aphex on 21.05.2016.

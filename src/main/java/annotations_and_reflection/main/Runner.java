@@ -1,7 +1,7 @@
-package main;
+package annotations_and_reflection.main;
 
-import consumer.HeirOfConsumer;
-import injector.Injector;
+import annotations_and_reflection.consumer.HeirOfConsumer;
+import annotations_and_reflection.injector.Injector;
 
 /**
  * Created by Aphex on 24.05.2016.

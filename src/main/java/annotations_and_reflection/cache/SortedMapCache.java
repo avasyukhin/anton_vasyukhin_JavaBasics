@@ -1,6 +1,6 @@
-package cache;
+package annotations_and_reflection.cache;
 
-import annotations.Cache;
+import annotations_and_reflection.annotations.Cache;
 
 import java.util.TreeMap;
 import java.util.SortedMap;

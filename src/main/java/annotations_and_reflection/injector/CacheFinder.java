@@ -1,7 +1,7 @@
-package injector;
+package annotations_and_reflection.injector;
 
-import annotations.Cache;
-import annotations.InjectCache;
+import annotations_and_reflection.annotations.Cache;
+import annotations_and_reflection.annotations.InjectCache;
 
 import java.lang.reflect.Field;
 import java.util.List;

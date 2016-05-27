@@ -1,4 +1,6 @@
-package main;
+package java8.main;
+
+import java8.main.Runner;
 
 /**
  * Created by Aphex on 24.05.2016.
